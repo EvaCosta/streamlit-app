@@ -1,0 +1,8 @@
+version: '3'
+services:
+  meu-streamlit:
+    build: .
+    ports:
+      - "8501:8501"
+    volumes:
+      - .:/app  # Opcional: Permite editar o código sem reiniciar o container (Hot Reload)
