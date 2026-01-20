@@ -4,6 +4,7 @@ import joblib
 import pandas as pd
 import numpy as np
 
+
 # --- CONFIGURAÇÃO DA PÁGINA ---
 st.set_page_config(
     page_title="Preditor de Preços Auto",
